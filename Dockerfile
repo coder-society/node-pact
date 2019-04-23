@@ -1,6 +1,6 @@
 FROM node:10.14.2-alpine
 
-RUN apk add --upgrade libressl bash curl-dev ruby-dev build-base ruby ruby-io-console ruby-bundler
+RUN apk add --upgrade libressl bash curl-dev ruby-dev build-base ruby ruby-io-console ruby-bundler docker
 
 RUN gem install bigdecimal --no-document
 RUN gem install pact_broker-client --no-document
