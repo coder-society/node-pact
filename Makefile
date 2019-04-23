@@ -1,5 +1,5 @@
 IMAGE = codersociety/node-pact
-TAG := 0.0.1
+TAG := 0.0.2
 
 clean-local:
 	docker rmi $(CLEAN_OPTIONS) $(IMAGE):$(TAG) || true
